@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),#4147da),url(student.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    transition:0.5s;
+    
+    animation-name:animate;
+    animation-direction:alternate-reverse;
+    animation-duration:5s ;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+
+   
+}
+@keyframes animate{
+    0%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),#4147da),url(bg5.jpg);
+    }
+    50%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),#4147da),url(bg6.jpg);
+    }
+    100%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),#4147da),url(bg7.jpg);
+    }
+    
+}
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainheader .logo img{
+    width: 250px;
+    height:110px;
+    padding-left:30px;
+    padding-top: 5px;
+}
+.mainheader nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 5px;
+   
+    
+}
+
+.mainheader nav a{
+    text-decoration: none;
+    color: white    ;
+    text-transform: uppercase;
+    font-weight:bold;   
+   
+   
+}
+#listmenu{
+    color: orange;
+}
+.mainheader nav a:hover{
+    color:orange;
+}
+
+
+.menubtn{
+    margin-right: 50px;
+}
+.gradient-button {
+    margin: 30px 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size:15px;
+    padding:15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 150% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 25px;
+    width: 150px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+
+}
+.gradient-button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;  
+}
+.gradient-button-4
+    {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+.gradient-button-4:hover { background-position: right center; }
+   
+ 
+#revolution{
+    float: left;
+    padding-left: 40px;
+    text-transform: uppercase;
+    padding-top:50px;
+    color: white;
+    position: relative;
+    
+    
+}
+.para{
+    font-size:50px;
+    
+}
+  
+    
+    
